@@ -230,22 +230,22 @@ blockquote cite:before {
 a {
     color: #3498db;
     word-wrap: break-word;
-    padding: 2px;
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
+    padding-bottom: 1px;
+    border-bottom: 2px solid transparent; 
+    -webkit-transition: border-bottom 0.1s ease-in;
+    -moz-transition: border-bottom 0.1s ease-in;
+    -ms-transition: border-bottom 0.1s ease-in;
+    -o-transition: border-bottom 0.1s ease-in;
+    transition: border-bottom 0.1s ease-in;
 }
 
 a:hover,
 a:focus {
     text-decoration: none;
+    color: #3498db;
     outline: 0;
-    color: #fff;
-    padding: 2px;
-    border-radius: 2px;
-    background: #3498db;
+    padding-bottom: 1px;
+    border-bottom: 2px solid #3498db;
 }
 
 a:before,
@@ -308,7 +308,7 @@ a:after {
   background-color: transparent;
   border: 2px solid #ddd;
   border-radius: 4px;
-  color: #ddd;
+  color: #fff;
   padding: 10px 20px;
   font-size: 20px;
   font-weight: bold;
@@ -320,7 +320,7 @@ a:after {
 }
 
 .main-cta:hover {
-  border-color: #fff; 
+  border-color: #fff;
   color: #fff;
 }
 
@@ -371,6 +371,17 @@ a:after {
 #footerwrap h4 {
 	color: white;
 }
+
+.social {
+  font-size: 25px;
+  padding: 1px;
+}
+.social:hover,
+.social:focus {
+  border-bottom: transparent;
+  padding: 1px;
+}
+
 
 /* ==========================================================================
    Box Sections
