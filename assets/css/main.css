@@ -257,7 +257,11 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-
+.nav.navbar-nav a,
+.nav.navbar-nav a:hover,
+.nav.navbar-nav a:active {
+  border-bottom: 2px solid transparent;
+}
 
 /* ==========================================================================
    Wrap Sections
@@ -666,6 +670,12 @@ a:after {
 		font-size: 25px;
 		line-height: 38px;
 	}
+  .nav .logo {
+    display: none;
+  }
+  .nav > li {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 1170px) {
