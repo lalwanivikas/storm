@@ -73,8 +73,8 @@ body {
 }
 
 body {
-    font-family: "Merriweather", "Georgia", "Times New Roman", serif;
-    font-weight: 300;
+    font-family: "Open Sans", Helvetica, "Times New Roman", serif;
+    font-weight: 400;
     font-size: 16px;
     color: #555;
 
@@ -150,8 +150,7 @@ a img {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Merriweather", "Georgia", "Times New Roman", serif;
-    font-weight: 300;
+    font-weight: 400;
     color: #333;
 }
 
@@ -265,10 +264,7 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-    /*background: url(../img/header_bg.jpeg) no-repeat center top;
-    -webkit-filter: grayscale(0.9);
-    filter: grayscale(0.9);*/
-    background-color: #0079BF;
+  background-color: #288feb;
 	margin-top: -50px;
 	padding-top:120px;
 	text-align:center;
@@ -277,26 +273,26 @@ a:after {
 	min-height: 650px;
 	width: 100%;
 	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #headerwrap h1 {
 	color:#ffffff;
 	margin-top: 160px;
 	padding-bottom: 40px;
-	letter-spacing: 2px;
-	font-size: 6rem;
-	font-weight: bold;
-    line-height: 8rem;
-	/*text-shadow: 2px 2px 2px #000;*/
+	letter-spacing: 1.5px;
+	font-size: 65px;
+	font-weight: 300;
+  line-height: 80px;
+  word-wrap: break-word;
 }
 
 #headerwrap p {
@@ -306,8 +302,33 @@ a:after {
 	text-align: center;
 	line-height: 30px;
 	letter-spacing: 1px;
-	margin-left: 15px;
-	/*text-shadow: 1px 1px 1px #000;*/
+}
+
+.main-cta {
+  background-color: transparent;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  color: #ddd;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-transition: color 0.1s ease-in, border-color 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, border-color 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, border-color 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, border-color 0.1s ease-in;
+  transition: color 0.1s ease-in, border-color 0.1s ease-in;
+}
+
+.main-cta:hover {
+  border-color: #fff; 
+  color: #fff;
+}
+
+.main-cta:focus {
+  border-color: #fff; 
+  color: #fff;
+  outline: none;
+  background-color: transparent;
 }
 
 #greywrap {
@@ -323,10 +344,14 @@ a:after {
 }
 
 #greywrap p {
-	margin-left: 30px;
-	margin-right: 30px;
+	margin-left: 15px;
+	margin-right: 15px;
 	padding-top: 15px;
 	padding-bottom: 15px;
+}
+
+#greywrap h2 {
+  font-size: 22px;
 }
 
 #greywrap .icon {
@@ -346,7 +371,6 @@ a:after {
 #footerwrap h4 {
 	color: white;
 }
-
 
 /* ==========================================================================
    Box Sections
@@ -623,11 +647,39 @@ a:after {
 
 @media screen and (max-width:769px) {
 	#headerwrap h1 {
-		font-size: 80px;
+		font-size: 40px;
+    margin-top: 100px;
+    line-height: 60px;
 	}
 	#headerwrap p {
-		font-size: 30px;
+		font-size: 25px;
 		line-height: 38px;
 	}
 }
+
+@media screen and (min-width: 1170px) {
+  #headerwrap header {
+    width: 1170px;
+    margin: 0 auto;
+  }
+  #greywrap .row{
+    width: 1170px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .nav.right {
+    float: right;
+  }
+}
+
+
+
+
+
+
+
+
+
 
