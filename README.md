@@ -1,2 +1,2 @@
 # storm
-Project Storm - lalwanivikas.github.io/storm/
+Project Storm - http://lalwanivikas.github.io/storm/
