@@ -42,7 +42,7 @@ body {
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-    margin: 1em 0;
+    margin: 2em 0;
     padding: 0;
 }
 
@@ -127,7 +127,7 @@ border: 0px solid transparent;
 hr {
     position: relative;
     border: none;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
 }
 
 hr:before {
@@ -270,7 +270,7 @@ a:after {
 #headerwrap {
   background-color: #288feb;
 	margin-top: -50px;
-	padding-top:120px;
+	padding-top:100px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
@@ -306,6 +306,17 @@ a:after {
 	text-align: center;
 	line-height: 30px;
 	letter-spacing: 1px;
+}
+
+#headerwrap a {
+  border: none;
+  text-decoration: none;
+}
+
+#headerwrap a:hover,
+#headerwrap a:hover {
+  border: none;
+  text-decoration: none;
 }
 
 .main-cta {
@@ -386,7 +397,66 @@ a:after {
   padding: 1px;
 }
 
+#pricing {
+  background: #fff;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
 
+#pricing h1 {
+  padding-top: 40px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+#pricing h2 {
+  font-size: 40px;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: #fff;
+  font-weight: bold;
+}
+
+#pricing p {
+  font-size: 20px;
+}
+
+.pricing-tier {
+  padding: 0px;
+  border-radius: 0px;
+  margin-top: 15px; 
+}
+
+#pricing .plan-name {
+  text-align: center;
+  background-color: #288feb;
+  color: #fff;
+  padding: 20px;
+}
+
+#pricing .plan-desc {
+  line-height: 25px;
+  border: 2px solid #ddd;
+  border-top: none;
+}
+
+#pricing .plan-desc ul {
+  padding-top: 25px;
+  margin-bottom: 25px;
+}
+
+#pricing .plan-desc li {
+  padding: 10px 20px 10px 0;
+}
+
+#pricing .advanced-user {
+  background: #42548e;
+}
+
+#faq h4 {
+  font-weight: bold;
+}
 /* ==========================================================================
    Box Sections
    ========================================================================== */
@@ -679,13 +749,23 @@ a:after {
 }
 
 @media screen and (min-width: 1170px) {
-  #headerwrap header {
+  #headerwrap header,
+  #greywrap .row,
+  #pricing .row {
     width: 1170px;
     margin: 0 auto;
   }
-  #greywrap .row{
-    width: 1170px;
-    margin: 0 auto;
+  .pricing-tier {
+    margin-right: 20px;
+    border-radius: 5px; 
+  }
+  
+  #pricing .plan-name {
+    border-radius: 5px 5px 0 0;
+  }
+
+  #pricing .plan-desc {
+    border-radius:0 0 5px 5px;
   }
 }
 
