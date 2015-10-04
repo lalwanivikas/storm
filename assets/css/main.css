@@ -314,17 +314,23 @@ a:after {
 }
 
 #headerwrap a,
-#team a {
+#team a,
+#pricing a:hover,
+#pricing a:active {
   border: none;
   text-decoration: none;
+  padding-bottom: 0;
 }
 
 #headerwrap a:hover,
 #headerwrap a:active,
 #team a:hover,
-#team a:active {
+#team a:active,
+#pricing a:hover,
+#pricing a:active {
   border: none;
   text-decoration: none;
+  padding-bottom: 0;
 }
 
 .main-cta {
@@ -420,6 +426,33 @@ a:after {
   font-size: 20px;
 }
 
+#pricing .btn-success {
+    font-weight: bold;
+    color: #fff;
+    background-color: #569e3d;
+    background-image: -webkit-linear-gradient(#79d858, #569e3d);
+    background-image: linear-gradient(#79d858, #569e3d);
+    border-color: #4a993e
+}
+
+#pricing .btn-success:hover {
+    color: #fff;
+    background-color: #60b044;
+    background-image: -webkit-linear-gradient(#8add6d, #60b044);
+    background-image: linear-gradient(#8add6d, #60b044);
+    border-color: #5ca941;
+}
+
+#pricing .btn-success:active,#pricing .btn-success.selected {
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+    background-color: #569e3d;
+    background-image: none;
+    border-color: #418737
+}
+
+#pricing .btn-success.selected:hover {
+    background-color: #4c8b36
+}
 .pricing-tier {
   padding: 0px;
   padding-bottom: 25px;
