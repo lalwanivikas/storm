@@ -270,12 +270,11 @@ a:after {
 
 #headerwrap {
   background-color: #288feb;
-	margin-top: -50px;
-	padding-top:100px;
+	padding-top:80px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 650px;
+	min-height: 600px;
 	width: 100%;
 	
   -webkit-background-size: 100%;
@@ -294,7 +293,7 @@ a:after {
 	margin-top: 160px;
 	padding-bottom: 60px;
 	letter-spacing: 1.5px;
-	font-size: 65px;
+	font-size: 62px;
 	font-weight: 300;
   line-height: 80px;
   word-wrap: break-word;
@@ -358,7 +357,7 @@ a:after {
 #greywrap {
 	background: #f5f5f5;
 	margin-top: 0px;
-	padding-top: 85px;
+	padding-top: 40px;
   padding-bottom: 50px;
 	border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
@@ -378,7 +377,7 @@ a:after {
 
 #greywrap h2 {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 #greywrap .icon {
@@ -388,7 +387,7 @@ a:after {
 }
 
 #process p {
-  padding: 25px 15px;
+  padding: 0px 15px;
 }
 
 #process,
@@ -397,19 +396,15 @@ a:after {
 #faq, 
 #contact {
   background: #fff;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 40px;
 }
 
-#pricing h1,
-#process h1,
-#team h1,
-#faq h1,
-#contact h1{
+.section-heading {
   font-size: 40px;
-  font-weight: 400;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  font-weight: 300;
+  padding-top: 30px;
+  padding-bottom: 60px;
 }
 
 #pricing h2 {
@@ -427,6 +422,7 @@ a:after {
 
 .pricing-tier {
   padding: 0px;
+  padding-bottom: 25px;
   border-radius: 0px;
   margin-top: 15px; 
 }
@@ -470,6 +466,7 @@ a:after {
 #team {
   background: #f5f5f5;
   border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -503,8 +500,8 @@ a:after {
 .section-divider {
     border-bottom: 2px solid #E6EAED;
     padding-top: 30px;
-    padding-bottom: 60px;
-    padding-top: 40px;
+    padding-bottom: 75px;
+    padding-top: 25px;
     text-align: center;
 }
 
@@ -513,12 +510,14 @@ a:after {
   padding-bottom: 20px;
 	color: white;
 	font-size: 40px;
+  font-weight: 300;
 }
 
 .textdivider p {
 	color: white;
 	font-size: 25px;
   font-weight: 300;
+  padding-bottom: 10px;
 }
 
 
@@ -535,7 +534,7 @@ a:after {
 
 .service-trigger {
     display: block;
-	position: relative;
+	 position: relative;
     margin-bottom: 15px;
     color: white;
     font-size: 20px;
