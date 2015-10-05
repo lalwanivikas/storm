@@ -304,8 +304,7 @@ a:after {
 
 #headerwrap a,
 #team a,
-#pricing a:hover,
-#pricing a:active {
+#pricing a {
   border: none;
   text-decoration: none;
   padding-bottom: 0;
