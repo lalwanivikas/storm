@@ -94,17 +94,46 @@ margin-top: 25px;
 }
 
 .modal-header {
-	background: #3498db;
+	background: #288feb;
+  border-radius: 5px 5px 0 0;
 }
 
-.modal-header h4 {
+.modal-header h3 {
 	color: white;
+  font-size: 28px;
+}
+
+.modal-body {
+  padding: 25px 30px 0px;
+}
+
+.modal-body input[type="text"],
+.modal-body input[type="email"],
+.modal-body textarea {
+  border: 2px solid #bbb;
+  box-shadow: none;
+}
+
+.modal-body input[type="text"]:focus,
+.modal-body input[type="email"]:focus,
+.modal-body textarea:focus {
+  border: 2px solid #66afe9;
+  box-shadow: none;
 }
 
 .modal-footer {
 	background: #2b2b2b;
 }
 
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 520px;
+  }
+}
+
+.close {
+  opacity: 1;
+}
 
 .navbar-default {
 border-color: transparent;
@@ -283,7 +312,6 @@ a:after {
     color: #fff;
   }
 }
-
 
 /* ==========================================================================
    Wrap Sections
